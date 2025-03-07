@@ -425,7 +425,7 @@ a{
 .carousel {
     position: relative;
     width: 100%;
-    height: 91vh;
+    height:80vh;
     padding: 0 9vw; /* Adds padding on left and right for larger screens */
     box-sizing: border-box; /* Ensures padding doesn't affect total width */
     background-color: #272525;
@@ -434,11 +434,14 @@ a{
   .carousel img {
     object-fit: cover;
     width: 100%;
-    height: 91vh;
+    height: 80vh;
   }
   @media (max-width: 768px) {
     .carousel {
       padding: 0; /* No padding on small screens */
+    }
+    .carousel img {
+      object-fit: cover;
     }
   }
   .operations-container {
